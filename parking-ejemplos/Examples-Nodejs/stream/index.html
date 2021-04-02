@@ -1,0 +1,23 @@
+<html>
+<body>
+    <canvas id="canvas"></canvas>
+    <canvas id="video"></canvas>
+</body>
+
+<script type="text/javascript" src="jsmpeg.min.js"></script>
+<script type="text/javascript">
+    player = new JSMpeg.Player('ws://localhost:9999', {
+      canvas: document.getElementById('canvas'), // Canvas should be a canvas DOM element,
+      autoplay:true,
+      audio:false,
+      loop:true
+    })  
+</script>
+
+<script type="text/javascript">
+    var canvas = document.getElementById('video');
+    var url = 'ws://localhost:8082/';
+    var player = new JSMpeg.Player(url, {canvas:canvas, autoplay:true,audio:false})
+</script> 
+
+</html>

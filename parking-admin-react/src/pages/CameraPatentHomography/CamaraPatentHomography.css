@@ -1,0 +1,23 @@
+.container {
+    color: blue;
+}
+
+#parkingCanvas {
+  position: absolute;
+}
+#configureContainer {
+  padding: 0px;
+
+}
+
+#canvas {
+  overflow : auto
+}
+
+.hiddenConfigure {
+  display: none;
+}
+
+.showConfigure {
+  display: flex;
+}

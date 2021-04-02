@@ -1,0 +1,52 @@
+{
+  "name": "admin",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-regular-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.12",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.5.3",
+    "chart.js": "^2.9.4",
+    "date-fns": "^2.16.1",
+    "jquery": "^3.5.1",
+    "konva": "^2.5.0",
+    "popper.js": "^1.16.1",
+    "react": "^16.6.0",
+    "react-chartjs-2": "^2.11.1",
+    "react-dom": "^16.6.0",
+    "react-hls-player": "^1.1.0",
+    "react-konva": "^16.6.0",
+    "react-redux": "^5.1.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.0",
+    "redux": "^4.0.1",
+    "redux-actions": "^2.6.3",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-thunk": "^2.3.0",
+    "source-map-explorer": "^1.6.0",
+    "styled-components": "^2.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "stop": "react-scripts stop"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "prop-types": "^15.7.2"
+  }
+}

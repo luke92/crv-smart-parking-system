@@ -1,0 +1,22 @@
+.dot{
+    font-size: 100px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    color: blue
+}
+
+.brown {
+    color: brown
+}
+.container {
+    color: blue;
+}
+
+#parkingCanvas {
+  position: absolute;
+}
+#configureContainer {
+  padding: 0px;
+}
+
